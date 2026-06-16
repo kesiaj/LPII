@@ -1,4 +1,4 @@
-
+pakage Atividade4;
 public class Calculo {
 
     private double totalSalario;
