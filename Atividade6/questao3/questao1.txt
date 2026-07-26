@@ -1,0 +1,8 @@
+1) A classe abstrata serve como base para outras classes, permitindo compartilhar atributos e métodos.
+Já a interface define um conjunto de comportamentos que as classes devem implementar.
+Nenhuma das duas pode ser instanciada diretamente. 
+A classe abstrata pode possuir métodos abstratos e concretos, além de atributos comuns.
+A interface possui principalmente métodos abstratos (podendo ter métodos `default` e `static`) e apenas constantes como atributos.
+Além disso, uma classe pode herdar apenas uma classe abstrata, mas pode implementar várias interfaces.
+
+2) V,V,F,V,V
