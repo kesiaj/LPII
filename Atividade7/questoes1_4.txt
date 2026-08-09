@@ -1,0 +1,22 @@
+1) Uma exceção em Java é um erro ou situação inesperada que acontece durante a execução do programa.
+ O tratamento de exceções é importante porque permite que o programa lide com esses problemas sem ser encerrado de forma inesperada,
+  mostrando uma mensagem adequada e permitindo que o erro seja tratado corretamente.
+
+2) Exceção	                        Tipo
+NullPointerException	           Unchecked
+IOException	                       Checked
+ArithmeticException	               Unchecked
+FileNotFoundException	           Checked
+ArrayIndexOutOfBoundsException	   Unchecked
+
+3) O vetor possui apenas três elementos, nas posições 0, 1 e 2.
+ O programa tenta acessar a posição 5, que não existe, causando uma exceção do tipo ArrayIndexOutOfBoundsException. 
+ Essa exceção é capturada pelo bloco catch, que imprime a primeira mensagem. 
+ Depois, o bloco finally também é executado.
+Será impresso:
+Erro: índice fora do limite!
+Bloco finally executado.
+
+4) Capturar uma exceção genérica como Exception pode ser problemático porque ela pode esconder qual foi exatamente o erro que aconteceu. 
+Isso dificulta a identificação e o tratamento correto do problema.
+Por exemplo, se ocorrer uma divisão por zero, seria melhor tratar especificamente uma ArithmeticException em vez de simplesmente capturar qualquer tipo de exceção com Exception.

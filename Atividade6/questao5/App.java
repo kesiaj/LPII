@@ -1,6 +1,7 @@
 package Atividade6.questao5;
 
-public class App {
+public class App
+ {
 
     public static void main(String[] args) {
 
